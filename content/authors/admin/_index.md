@@ -1,13 +1,10 @@
 ---
 # Display name
-title: 吳健雄
-
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+title: Antonio Macaluso
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Antonio
+last_name: Macaluso
 
 # Status emoji
 status:
@@ -16,171 +13,112 @@ status:
 # Is this the primary user of the site?
 superuser: true
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
-
 # Role/position/tagline
-role: Chief Scientist
+role: Senior Researcher
 
-# Organizations/Affiliations to display in Biography blox
+# Organizations/Affiliations to show in About widget
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: German Research Center for Artificial Intelligence (DFKI)
+    url: https://www.dfki.de/
 
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+# Short bio (displayed in user profile at end of posts)
+bio: My research interests include Quantum AI, Quantum Computing, Artificial Intelligence.
 
+# Interests to show in About widget
 interests:
+  - Quantum Artificial Intelligence
+  - Quantum Computing
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
 
+# Education to show in About widget
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  courses:
+    - course: PhD in Computer Science and Engineering
+      institution: University of Bologna
+      year: 2021
+    - course: MSc in Statistical Sciences
+      institution: University Bologna
+      year: 2017
+    - course: Advanced Master in Data Science 
+      institution: Bologna Business School, University Bologna
+      year: 2016
+    - course: BSc in Statistical Sciences
+      institution: University Bologna
+      year: 2014
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: Technical Skills
+  - name: Technical
     items:
       - name: Python
         description: ''
-        percent: 80
-        icon: code-bracket
+        percent: 70
+        icon: python
+        icon_pack: fab
       - name: Data Science
         description: ''
-        percent: 100
-        icon: chart-bar
+        percent: 90
+        icon: chart-line
+        icon_pack: fas
       - name: SQL
         description: ''
         percent: 40
-        icon: circle-stack
+        icon: database
+        icon_pack: fas
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Reading
         description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+        percent: 90
+        icon: book
+        icon_pack: fas
+      - name: Science
         description: ''
         percent: 80
-        icon: camera
+        icon: atom
+        icon_pack: fas
+      - name: Biking
+        description: ''
+        percent: 70
+        icon: bicycle
+        icon_pack: fas
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+# Social/Academic Networking
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:antonio.macaluso@dfki.de
+  - icon: orcid # graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
+    link: https://orcid.org/0000-0002-1348-250X
+  - icon: researchgate # graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/Antonio-Macaluso
+  - icon: google-scholar # graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
+    link: https://scholar.google.com/citations?hl=en&user=Z2R5HuEAAAAJ&view_op=list_works&sortby=pubdate
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/amacaluso
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/antonio-macaluso/
+  # Link to a PDF of your resume/CV.
+  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
+  # and uncomment the lines below.
+  # - icon: cv
+  #   icon_pack: ai
+  #  link: uploads/resume.pdf
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+# Highlight the author in author lists? (true/false)
+highlight_name: true
 ---
 
-## About Me
-
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am Senior Researcher at the German Research Center for Artificial Intelligence (DFKI). My primary research objective revolves around exploring the benefits of quantum algorithms for computationally hard problems in artificial intelligence. In addition to my research endeavors, I am the lecturer of the quantum artificial intelligence courses at Saarland University.
+{style="text-align: justify;"}
